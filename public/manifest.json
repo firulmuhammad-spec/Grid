@@ -1,0 +1,33 @@
+{
+  "name": "GRID Industrial Diagnostics",
+  "short_name": "GRID",
+  "description": "Industrial Vibration & Balancing Diagnostic Tool",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#22c55e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Balancing Workshop",
+      "short_name": "Workshop",
+      "description": "Calculate unbalance and correction mass",
+      "url": "/?tab=workshop",
+      "icons": [{ "src": "icon.svg", "sizes": "512x512" }]
+    },
+    {
+      "name": "Defect Catalog",
+      "short_name": "Catalog",
+      "description": "Vibration pattern library",
+      "url": "/?tab=catalog",
+      "icons": [{ "src": "icon.svg", "sizes": "512x512" }]
+    }
+  ]
+}

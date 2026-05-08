@@ -10,6 +10,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import SplashScreen from './components/SplashScreen';
 import { 
   Home, 
   BookOpen, 
@@ -49,6 +50,7 @@ import { db } from './firebase';
 import equipmentData from './Data/equipment.json';
 
 export default function App() {
+  const [showSplashScreen, setShowSplashScreen] = useState(true);
   const [activeTab, setActiveTab] = useState('home');
   const [selectedPlant, setSelectedPlant] = useState('');
   const [showWizard, setShowWizard] = useState(false);
@@ -1095,7 +1097,11 @@ export default function App() {
   const allVerified = wizardData.sensorPerpendicular && wizardData.surfaceCoatingFree && wizardData.boltsTight;
 
   return (
-    <div id="app-container" className="min-h-screen pb-24 bg-brand-bg relative overflow-x-hidden">
+    <AnimatePresence mode="wait">
+      {showSplashScreen ? (
+        <SplashScreen key="splash" onFinish={() => setShowSplashScreen(false)} />
+      ) : (
+        <div id="app-container" className="min-h-screen pb-24 bg-brand-bg relative overflow-x-hidden safe-area-inset">
       <div className="scanline" />
       {/* Background Decorative Element */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/5 blur-3xl rounded-full -mr-32 -mt-32 pointer-events-none" />
@@ -2351,6 +2357,8 @@ export default function App() {
         )}
       </AnimatePresence>
     </div>
+      )}
+    </AnimatePresence>
   );
 }
 
