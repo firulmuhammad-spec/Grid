@@ -205,7 +205,7 @@ export default function BalancingWorkshop({ equipmentData = [] }: { equipmentDat
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 pb-20">
+    <div className="min-h-screen bg-slate-950 text-slate-200 pb-32">
       {/* Header */}
       <div className="bg-slate-900/50 border-b border-slate-800 px-6 py-8">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6">

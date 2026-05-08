@@ -2047,7 +2047,7 @@ export default function App() {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="space-y-6"
+                  className="space-y-6 pb-32"
                 >
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4 mb-2">
