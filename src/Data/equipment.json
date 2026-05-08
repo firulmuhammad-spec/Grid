@@ -1,0 +1,3242 @@
+[
+  {
+    "plant": "NH3A",
+    "id": "101-J/JT",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "NH3A",
+    "id": "102-J/JT",
+    "desc": "feed gas compressor"
+  },
+  {
+    "plant": "NH3A",
+    "id": "103-J/JT",
+    "desc": "synth gas compressor"
+  },
+  {
+    "plant": "NH3A",
+    "id": "105-J/JT",
+    "desc": "refrigerant compressor"
+  },
+  {
+    "plant": "NH3A",
+    "id": "101BJ1",
+    "desc": "forced draft fan"
+  },
+  {
+    "plant": "NH3A",
+    "id": "101BJ2",
+    "desc": "induced draft fan"
+  },
+  {
+    "plant": "NH3A",
+    "id": "101JLJ1",
+    "desc": "Main LO pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "101JLJ1A",
+    "desc": "Main LO pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "102JLJ2",
+    "desc": "LP boost pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "102JLJ2A",
+    "desc": "LP boost pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "102JLJ3",
+    "desc": "HP boost pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "102JLJ3A",
+    "desc": "HP boost pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "104J",
+    "desc": "BFW Pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "104JA",
+    "desc": "BFW Pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "107JA",
+    "desc": "semilean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "107JB",
+    "desc": "semilean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "107JC",
+    "desc": "semilean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "107JD",
+    "desc": "semilean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "108J",
+    "desc": "lean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "108JA",
+    "desc": "lean solution pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "113J",
+    "desc": "warm nh3 prod pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "113JA",
+    "desc": "warm nh3 prod pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "114J",
+    "desc": "cond pump for 101jtc"
+  },
+  {
+    "plant": "NH3A",
+    "id": "114JA",
+    "desc": "cond pump for 101jtc"
+  },
+  {
+    "plant": "NH3A",
+    "id": "116J",
+    "desc": "co2 strip quench"
+  },
+  {
+    "plant": "NH3A",
+    "id": "116JA",
+    "desc": "co2 strip quench"
+  },
+  {
+    "plant": "NH3A",
+    "id": "121J",
+    "desc": "Process cond pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "121JA",
+    "desc": "Process cond pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "124J",
+    "desc": "cold nh3 prod pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "124JA",
+    "desc": "cold nh3 prod pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "141JA",
+    "desc": "HP NH3 scrub pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "141JB",
+    "desc": "HP NH3 scrub pump"
+  },
+  {
+    "plant": "NH3A",
+    "id": "115J",
+    "desc": "process cond boost"
+  },
+  {
+    "plant": "NH3A",
+    "id": "115JA",
+    "desc": "process cond boost"
+  },
+  {
+    "plant": "NH3B",
+    "id": "101-J/JT",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "NH3B",
+    "id": "102-J/JT",
+    "desc": "feed gas compressor"
+  },
+  {
+    "plant": "NH3B",
+    "id": "103-J/JT",
+    "desc": "synth gas compressor"
+  },
+  {
+    "plant": "NH3B",
+    "id": "105-J/JT",
+    "desc": "refrigerant compressor"
+  },
+  {
+    "plant": "NH3B",
+    "id": "101BJ",
+    "desc": "id fan"
+  },
+  {
+    "plant": "NH3B",
+    "id": "101BJ1",
+    "desc": "fd fan"
+  },
+  {
+    "plant": "NH3B",
+    "id": "101JLJ",
+    "desc": "LP boost Pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "101JLJA",
+    "desc": "LP boost Pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "103JLJ",
+    "desc": "HP boost pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "103JLJA",
+    "desc": "HP boost pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "104JA",
+    "desc": "BFW pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "104JB",
+    "desc": "BFW pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "104JC",
+    "desc": "BFW pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "107JAHT",
+    "desc": "semiliean solution pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "107JBT",
+    "desc": "semiliean solution pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "107JCT",
+    "desc": "semiliean solution pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "108J",
+    "desc": "lean solution pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "108JA",
+    "desc": "lean solution pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "110J",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "110JA",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "112J",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "112JA",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "113J",
+    "desc": "warm nh3 prod pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "113JA",
+    "desc": "warm nh3 prod pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "114J",
+    "desc": "cond pump for 101JTC"
+  },
+  {
+    "plant": "NH3B",
+    "id": "114JA",
+    "desc": "cond pump for 101JTC"
+  },
+  {
+    "plant": "NH3B",
+    "id": "116J",
+    "desc": "Co2 strip quench"
+  },
+  {
+    "plant": "NH3B",
+    "id": "116JA",
+    "desc": "Co2 strip quench"
+  },
+  {
+    "plant": "NH3B",
+    "id": "117J",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "117JA",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "118J",
+    "desc": "cond pump for 101JTC"
+  },
+  {
+    "plant": "NH3B",
+    "id": "118JA",
+    "desc": "cond pump for 101JTC"
+  },
+  {
+    "plant": "NH3B",
+    "id": "121J",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "121JA",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "122J",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "122JA",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "124J",
+    "desc": "cold nh3 prod pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "124JA",
+    "desc": "cold nh3 prod pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "131JX",
+    "desc": "expander"
+  },
+  {
+    "plant": "NH3B",
+    "id": "156J",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "156JA",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "161J",
+    "desc": "pump"
+  },
+  {
+    "plant": "NH3B",
+    "id": "161JA",
+    "desc": "pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GB-101",
+    "desc": "Co2 Compressor"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GTG2280",
+    "desc": "gas turbine generator"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "01C11021",
+    "desc": "forced draft fan"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA101A",
+    "desc": "nh3 feed pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA101B",
+    "desc": "nh3 feed pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA102A",
+    "desc": "carbamate feed pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA102B",
+    "desc": "carbamate feed pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA103A",
+    "desc": "nh3 boost up pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA103B",
+    "desc": "nh3 boost up pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA104A",
+    "desc": "HP flooding pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA104B",
+    "desc": "HP flooding pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA106A",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA106B",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA107A",
+    "desc": "return cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA107B",
+    "desc": "return cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA109A",
+    "desc": "steam cond circ pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA109B",
+    "desc": "steam cond circ pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA110A",
+    "desc": "steam cond make up pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA110B",
+    "desc": "steam cond make up pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA121A",
+    "desc": "sealing water pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA121B",
+    "desc": "sealing water pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA201A",
+    "desc": "urea solution pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA201B",
+    "desc": "urea solution pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA204A",
+    "desc": "U-GA204 at plan 02+62"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA204B",
+    "desc": "U-GA204 at plan 02+62"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA301A",
+    "desc": "circ pump dust rec"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA301B",
+    "desc": "circ pump dust rec"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA302A",
+    "desc": "pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA302B",
+    "desc": "pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA303A",
+    "desc": "disolving tank pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA303B",
+    "desc": "disolving tank pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA304",
+    "desc": "portable water pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA302",
+    "desc": "fan for fludizing cooler"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA401A",
+    "desc": "carbamate boost up"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA401B",
+    "desc": "carbamate boost up"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA402A",
+    "desc": "GA402 for HP absorb pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA402B",
+    "desc": "GA402 for HP absorb pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA404A",
+    "desc": "HP absorb pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA404B",
+    "desc": "HP absorb pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA403",
+    "desc": "Carbonate sol pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA405A",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA405B",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA501A",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA501B",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA502A",
+    "desc": "urea hydrolizer pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA502B",
+    "desc": "urea hydrolizer pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA503A",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1B",
+    "id": "GA503B",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GB101",
+    "desc": "Co2 compressor"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA101A",
+    "desc": "nh3 feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA101B",
+    "desc": "nh3 feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA102A",
+    "desc": "carbamate feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA102B",
+    "desc": "carbamate feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA103A",
+    "desc": "nh3 boost up pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA103B",
+    "desc": "nh3 boost up pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA104A",
+    "desc": "HP flooding pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA104B",
+    "desc": "HP flooding pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA106A",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA106B",
+    "desc": "steam cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA107A",
+    "desc": "return cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA107B",
+    "desc": "return cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA121A",
+    "desc": "sealing water pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA121B",
+    "desc": "sealing water pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA201A",
+    "desc": "urea solution pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA201B",
+    "desc": "urea solution pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA202A",
+    "desc": "urea circ solut pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA202B",
+    "desc": "urea circ solut pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA203A",
+    "desc": "urea solut feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA203B",
+    "desc": "urea solut feed pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA204A",
+    "desc": "molten urea pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA204B",
+    "desc": "molten urea pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA205A",
+    "desc": "hot water pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA205B",
+    "desc": "hot water pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA301A",
+    "desc": "water pump to prill"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA301B",
+    "desc": "water pump to prill"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA302A",
+    "desc": "Circ pump dust rec"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA302B",
+    "desc": "Circ pump dust rec"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA303A",
+    "desc": "disolving tank pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA303B",
+    "desc": "disolving tank pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA304",
+    "desc": "mixer"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA305",
+    "desc": "portable water pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA302",
+    "desc": "fan for fludizing cooler"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA401A",
+    "desc": "carbamate boost up"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA401B",
+    "desc": "carbamate boost up"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA402A",
+    "desc": "GA402 for HP absorb pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA402B",
+    "desc": "GA402 for HP absorb pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA403A",
+    "desc": "Carbonate sol pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA403B",
+    "desc": "Carbonate sol pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA501A",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA501B",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA502A",
+    "desc": "urea hydrolizer pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA502B",
+    "desc": "urea hydrolizer pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA503A",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA503B",
+    "desc": "process cond pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA504A",
+    "desc": "drain recovery pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GA504B",
+    "desc": "drain recovery pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GB101GA1A",
+    "desc": "oil pump"
+  },
+  {
+    "plant": "UREA1A",
+    "id": "GB101GA1B",
+    "desc": "oil pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "GTG2280",
+    "desc": "Gas turbine generator"
+  },
+  {
+    "plant": "UT1A",
+    "id": "01C11021",
+    "desc": "forced draft fan"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1103A",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1103B",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1103C",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1108A",
+    "desc": "deaerator feed pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1108B",
+    "desc": "deaerator feed pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1202A",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1202B",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1202C",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1203A",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1203B",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1203C",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1204A",
+    "desc": "fire pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1204B",
+    "desc": "fire pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1207C",
+    "desc": "drinking water circ"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1207D",
+    "desc": "drinking water circ"
+  },
+  {
+    "plant": "UT1A",
+    "id": " P6402A",
+    "desc": "water pump to p3"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P6402B",
+    "desc": "water pump to p3"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P6402C",
+    "desc": "water pump to p3"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P6403A",
+    "desc": "water pump to p3"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P6403B",
+    "desc": "water pump to p3"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2252A",
+    "desc": "jockey pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2252B",
+    "desc": "jockey pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951A",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951B",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951C",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951D",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951E",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P951F",
+    "desc": "transfer water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2212A",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2212B",
+    "desc": "clarifier water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9301A",
+    "desc": "water pump to KIG"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9301B",
+    "desc": "water pump to KIG"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9302A",
+    "desc": "water pump to smelting"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9302B",
+    "desc": "water pump to smelting"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9303A",
+    "desc": "water pump to PON"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9303B",
+    "desc": "water pump to PON"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9304",
+    "desc": "service water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9304A",
+    "desc": "water pump to pwd"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P9304B",
+    "desc": "water pump to pwd"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P10.08A",
+    "desc": "water pump to UBB"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P10.08B",
+    "desc": "water pump to UBB"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1247",
+    "desc": "service water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1207A",
+    "desc": "drinking water circ"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1213A",
+    "desc": "cond circuit pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1213B",
+    "desc": "cond circuit pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1213C",
+    "desc": "cond circuit pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1213D",
+    "desc": "cond circuit pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1241A",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1241B",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1241C",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1243A",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1243B",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1243C",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P1243D",
+    "desc": "hard water pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P3C",
+    "desc": "demin pump circul"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P3D",
+    "desc": "demin pump circul"
+  },
+  {
+    "plant": "UT1A",
+    "id": "C1243",
+    "desc": "blower fan"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2201A",
+    "desc": "station supply pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2201B",
+    "desc": "station supply pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2201C",
+    "desc": "station supply pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2201D",
+    "desc": "station supply pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2202A",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2202B",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2206A",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2206B",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2206C",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2206D",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1A",
+    "id": "P2280",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P301A",
+    "desc": "mother liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P301B",
+    "desc": "mother liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P301C",
+    "desc": "mother liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P302A",
+    "desc": "condensate liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P302B",
+    "desc": "condensate liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P302C",
+    "desc": "condensate liq pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01C302A",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01C302B",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01C303B",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01C303C",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01C305",
+    "desc": "exhaust fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M301A",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01MOP301A",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M301B",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01MOP301B",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M302",
+    "desc": "rotary dryer"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M303",
+    "desc": "wet belt conveyor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M306",
+    "desc": "bucket elevator"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01M307",
+    "desc": "screw conveyor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06P302A",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06P302B",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06P302C",
+    "desc": "pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06C302A",
+    "desc": "exhaust fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06C302B",
+    "desc": "exhaust fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06C303B",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06C303C",
+    "desc": "air compressor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M301A",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06MOP301A",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M301B",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06MOP301B",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06C305",
+    "desc": "exhaust fan"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M302",
+    "desc": "rotary dryer"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M303",
+    "desc": "wet belt conveyor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M306",
+    "desc": "bucket elevator"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M307",
+    "desc": "screw conveyor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06M309",
+    "desc": "dry belt conveyor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06P305A",
+    "desc": "acid pump to za3"
+  },
+  {
+    "plant": "UT1B",
+    "id": "06P305B",
+    "desc": "acid pump to za3"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P202A",
+    "desc": "acid pump to za1"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P202B",
+    "desc": "acid pump to za1"
+  },
+  {
+    "plant": "UT1B",
+    "id": "01P202C",
+    "desc": "acid pump to za1"
+  },
+  {
+    "plant": "UT1B",
+    "id": "C401A",
+    "desc": "instr air compressor"
+  },
+  {
+    "plant": "UT1B",
+    "id": "C401B",
+    "desc": "instr air compressor"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15M112",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15M114",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15M119",
+    "desc": "Coater"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15M125",
+    "desc": "Cooler"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15C101",
+    "desc": "Dryer Fan"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15C102",
+    "desc": "Cooler Fan"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15C104",
+    "desc": "Furnace Fan"
+  },
+  {
+    "plant": "NPK1",
+    "id": "15C105",
+    "desc": "Dedusting"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18M2112",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18M2114",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18M2119",
+    "desc": "Coater"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18M2125",
+    "desc": "Cooler"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18C2101",
+    "desc": "Dryer Fan"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18C2102",
+    "desc": "Cooler Fan"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18C2104",
+    "desc": "Furnace Fan"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18C2105",
+    "desc": "Granulator fan"
+  },
+  {
+    "plant": "NPK2",
+    "id": "18C2107",
+    "desc": "Air Heather"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18M3112",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18M3114",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18M3119",
+    "desc": "Coater"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18M3125",
+    "desc": "Cooler"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18C3101",
+    "desc": "Dryer Fan"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18C3102",
+    "desc": "Cooler Fan"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18C3104",
+    "desc": "Furnace Fan"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18C3105",
+    "desc": "Granulator fan"
+  },
+  {
+    "plant": "NPK3",
+    "id": "18C3107",
+    "desc": "Air Heather"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18M4112",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18M4114",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18M4119",
+    "desc": "Coater"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18M4125",
+    "desc": "Cooler"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18C4101",
+    "desc": "Dryer Fan"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18C4102",
+    "desc": "Cooler Fan"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18C4104",
+    "desc": "Furnace Fan"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18C4105",
+    "desc": "Granulator fan"
+  },
+  {
+    "plant": "NPK4",
+    "id": "18C4107",
+    "desc": "Air Heather"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M107",
+    "desc": "Granulator Elevator"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M112",
+    "desc": "Bucket Elevator Exit"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M109",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M110",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M116",
+    "desc": "Final Product Elevator"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M117",
+    "desc": "Coater Drum"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09M126",
+    "desc": "Cooler Drum"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C101",
+    "desc": "Dedusting"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C104",
+    "desc": "Motor For CF"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C105",
+    "desc": "Motor For QF"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C106",
+    "desc": "Motor For DF"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C107",
+    "desc": "Dryer Exhaust Fan"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C108",
+    "desc": "Granul & Dedusting EF"
+  },
+  {
+    "plant": "PHONSKA1",
+    "id": "09C109",
+    "desc": "Motor For FBC EF"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M302",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M304",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M305",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M308",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M363",
+    "desc": "Cooler Drum"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M364",
+    "desc": "Coater Drum"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M362",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02M361",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02DR101",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02DR102",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C301",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C302",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C305",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C306",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C307",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "12C310",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA2",
+    "id": "02C314",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M302",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M304",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M305",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M308",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M363",
+    "desc": "Cooler Drum"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M364",
+    "desc": "Coater Drum"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M362",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03M361",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03DR201",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03DR202",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "23C301",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "23C302",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "23C315",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "23C304",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "23C307",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03C305",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA3",
+    "id": "03C314",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M302",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M304",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M305",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M308",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M363",
+    "desc": "Cooler Drum"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M364",
+    "desc": "Coater Drum"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M362",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03M361",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03DR201",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03DR202",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "23C301",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "23C302",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "23C315",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "23C304",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "23C307",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03C305",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA4",
+    "id": "03C314",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M302",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M304",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M305",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M308",
+    "desc": "Bucket Elevator"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M363",
+    "desc": "Cooler Drum"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M364",
+    "desc": "Coater Drum"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M362",
+    "desc": "Dryer"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M361",
+    "desc": "Granulator"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M328A",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21M328B",
+    "desc": "Drag Conveyor"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02Q101",
+    "desc": "Ball Mill"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C303",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C304",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21C305",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C307",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02C101",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C314",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02C102",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02C105",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02C106",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "21C201",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "02C202",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C301",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PHONSKA5",
+    "id": "39C302",
+    "desc": "Blower"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "11C801A",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "11C801B",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "11C801C",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "25C801A",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "25C801B",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "25C801C",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "32R801A",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "32R801B",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "TANKYARD",
+    "id": "32R801C",
+    "desc": "Compressor Ammonia"
+  },
+  {
+    "plant": "ZK1",
+    "id": "13P107",
+    "desc": "Air Induce"
+  },
+  {
+    "plant": "ZK1",
+    "id": "13P108",
+    "desc": "Exhaust Fan"
+  },
+  {
+    "plant": "ZK1",
+    "id": "13P204A",
+    "desc": "Scrubber Fan"
+  },
+  {
+    "plant": "ZK1",
+    "id": "13P204B",
+    "desc": "Scrubber Fan"
+  },
+  {
+    "plant": "ZK1",
+    "id": "13 R101",
+    "desc": ""
+  },
+  {
+    "plant": "ZK2",
+    "id": "36P107",
+    "desc": "Air Induce"
+  },
+  {
+    "plant": "ZK2",
+    "id": "36P108",
+    "desc": "Exhaust Fan"
+  },
+  {
+    "plant": "ZK2",
+    "id": "36P204A",
+    "desc": "Scrubber Fan"
+  },
+  {
+    "plant": "ZK2",
+    "id": "36P204B",
+    "desc": "Scrubber Fan"
+  },
+  {
+    "plant": "ZK2",
+    "id": "13 R101",
+    "desc": ""
+  },
+  {
+    "plant": "ALF",
+    "id": "C3103",
+    "desc": "Hot gas fan"
+  },
+  {
+    "plant": "ALF",
+    "id": "C3104",
+    "desc": "Exhaust fan"
+  },
+  {
+    "plant": "ALF",
+    "id": "C3102",
+    "desc": "Combustion air fan"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3134",
+    "desc": "Calsiner"
+  },
+  {
+    "plant": "ALF",
+    "id": "P3113A",
+    "desc": "Collection Tank pump"
+  },
+  {
+    "plant": "ALF",
+    "id": "P3113B",
+    "desc": "Collection Tank pump"
+  },
+  {
+    "plant": "ALF",
+    "id": "P3106A",
+    "desc": "Hot H2Sif6 pump"
+  },
+  {
+    "plant": "ALF",
+    "id": "P3106B",
+    "desc": "Hot H2Sif6 pump"
+  },
+  {
+    "plant": "ALF",
+    "id": "C3150A",
+    "desc": "Air Compressor"
+  },
+  {
+    "plant": "ALF",
+    "id": "C3150B",
+    "desc": "Air Compressor"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3135",
+    "desc": "Product cooler"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3149",
+    "desc": "Product Screw Conveyor"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3132A",
+    "desc": "Centrifuge"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3132B",
+    "desc": "Centrifuge"
+  },
+  {
+    "plant": "ALF",
+    "id": "M3133",
+    "desc": "Centrifuge"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2302A",
+    "desc": "Agitator digester"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2302B",
+    "desc": "Agitator digester"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2401A",
+    "desc": "Agitator hydration"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2401B",
+    "desc": "Agitator hydration"
+  },
+  {
+    "plant": "PA3A",
+    "id": "C2323",
+    "desc": "No. 1 Vacuum pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "C2423",
+    "desc": "No. 2 Vacuum pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "C2341",
+    "desc": "Exhaust fan"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2303",
+    "desc": "No. 1 Vacuum cooler pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2403",
+    "desc": "No. 2 Vacuum cooler pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2501",
+    "desc": "Circulation pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "Q2204",
+    "desc": "Mill"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2302A",
+    "desc": "Agitator digester Emergency motor"
+  },
+  {
+    "plant": "PA3A",
+    "id": "M2302B",
+    "desc": "Agitator digester Emergency motor"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2401A",
+    "desc": "Dyhidrate slurry pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2401B",
+    "desc": "Dyhidrate slurry pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2402B",
+    "desc": "dhydrate recycle pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2342",
+    "desc": "No. 2 fume scrub pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2341",
+    "desc": "No. 1 Fume scrubber pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2541",
+    "desc": "fluorine scrubber pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2343A",
+    "desc": "fluorine scrubber pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2343B",
+    "desc": "fluorine scrubber pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "C2322",
+    "desc": "Blower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2302A",
+    "desc": "hemyhidrate recycle pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2302B",
+    "desc": "hemyhidrate recycle pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2601A",
+    "desc": "Hot water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2601B",
+    "desc": "Hot water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2601C",
+    "desc": "Hot water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2602A",
+    "desc": "Cold water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2602B",
+    "desc": "Cold water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2602C",
+    "desc": "Cold water pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2301A",
+    "desc": "hemihydrate slurry pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "P2301B",
+    "desc": "hemihydrate slurry pump"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601A",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601B",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601C",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601D",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601E",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601F",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601G",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "PA3A",
+    "id": "MT2601H",
+    "desc": "cooling tower"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2302A",
+    "desc": "agitator digester"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2302B",
+    "desc": "agitator digester"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2302C",
+    "desc": "agitator digester"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2401A",
+    "desc": "agitator hydration"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2401B",
+    "desc": "agitator hydration"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C2323",
+    "desc": "No. 1 Vacuum pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C2423",
+    "desc": "No. 2 Vacuum pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C2341",
+    "desc": "Exhaust fan"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P2303",
+    "desc": "No. 1 Vacuum cooler pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C1301",
+    "desc": "air blower"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C1302",
+    "desc": "startup blower"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P1301",
+    "desc": "DT circulation pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P1302",
+    "desc": "1st AT circulation pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P1303",
+    "desc": "2nd AT circulation pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C2322",
+    "desc": "blower"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C6641A",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C6641B",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P6201A",
+    "desc": "boiler feedwater pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "P6201B",
+    "desc": "boiler feedwater pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "C4101",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "TG6101",
+    "desc": "turbine generator"
+  },
+  {
+    "plant": "REVAMPING",
+    "id": "M2302",
+    "desc": "agitator digester emergency motor"
+  },
+  {
+    "plant": "SASU",
+    "id": "C1301",
+    "desc": "air blower"
+  },
+  {
+    "plant": "SASU",
+    "id": "C1302",
+    "desc": "startup blower"
+  },
+  {
+    "plant": "SASU",
+    "id": "P1301",
+    "desc": "DT circulation pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P1302",
+    "desc": "1st AT circulation pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P1303",
+    "desc": "2nd AT circulation pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6213A",
+    "desc": "boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6213B",
+    "desc": "boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P1101A",
+    "desc": "boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P1101B",
+    "desc": "boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6202A",
+    "desc": "aux boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6202B",
+    "desc": "aux boiler feed water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6201",
+    "desc": "Aux boiler force draft fan"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6221",
+    "desc": "Exhaust fan"
+  },
+  {
+    "plant": "SASU",
+    "id": "TP6101",
+    "desc": "Turbine generator"
+  },
+  {
+    "plant": "SASU",
+    "id": "TP6102",
+    "desc": "Turbine generator"
+  },
+  {
+    "plant": "SASU",
+    "id": "C1101A",
+    "desc": "cooling air booster"
+  },
+  {
+    "plant": "SASU",
+    "id": "C1101B",
+    "desc": "cooling air booster"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6201A",
+    "desc": "daearator feedwater pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6201B",
+    "desc": "daearator feedwater pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6211A",
+    "desc": "condensate pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6211B",
+    "desc": "condensate pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6301A",
+    "desc": "service air compressor"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6301B",
+    "desc": "service air compressor"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6301C",
+    "desc": "service air compressor"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6302A",
+    "desc": "instrument air compressor"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6302B",
+    "desc": "instrument air compressor"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6407A",
+    "desc": "demineralized water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6407B",
+    "desc": "demineralized water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6407C",
+    "desc": "demineralized water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6407D",
+    "desc": "demineralized water pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6404A",
+    "desc": "intermediate pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6404B",
+    "desc": "intermediate pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6521A",
+    "desc": "No. 2 cooling tower pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6521B",
+    "desc": "No. 2 cooling tower pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6521C",
+    "desc": "No. 2 cooling tower pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6531A",
+    "desc": "No. 3 cooling tawer pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6531B",
+    "desc": "No. 3 cooling tawer pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "P6531C",
+    "desc": "No. 3 cooling tawer pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6641A",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "SASU",
+    "id": "C6641B",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "TG01",
+    "desc": "turbine generator"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-04A",
+    "desc": "condesate pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-04B",
+    "desc": "condesate pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-04C",
+    "desc": "condesate pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-14A",
+    "desc": "water jet pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-14B",
+    "desc": "water jet pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P02-18A",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P02-18B",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P02-18C",
+    "desc": "bfw pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17A",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17B",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17C",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17D",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17E",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-17F",
+    "desc": "primary air fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12A",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12B",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12C",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12D",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12E",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "L08-12F",
+    "desc": "coal mill"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-02A",
+    "desc": "id fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-02B",
+    "desc": "id fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-02C",
+    "desc": "id fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-02D",
+    "desc": "id fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "P09-01A",
+    "desc": "circulating water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P09-01B",
+    "desc": "circulating water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P09-01C",
+    "desc": "circulating water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P09-02A",
+    "desc": "ind water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P09-02B",
+    "desc": "ind water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "K09-05A",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K09-05B",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K09-05C",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K09-05D",
+    "desc": "cooling tower fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "P06-22A",
+    "desc": "demin water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P06-22B",
+    "desc": "demin water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P06-22C",
+    "desc": "demin water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-05A",
+    "desc": "service water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "P01-05B",
+    "desc": "service water pump"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-11A",
+    "desc": "seal fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-11B",
+    "desc": "seal fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-11C",
+    "desc": "seal fan"
+  },
+  {
+    "plant": "UBB",
+    "id": "K08-11D",
+    "desc": "seal fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5101",
+    "desc": "Co2 compressor"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5201",
+    "desc": "reaction fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5601 ",
+    "desc": "dryer cooler ex fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5603",
+    "desc": "prod cooler fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5604",
+    "desc": "cooler air feed fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5501",
+    "desc": "1st circl pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5502 ",
+    "desc": "2nd circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5503",
+    "desc": "3rd circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5501A",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MOP5501A",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5501B",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MOP5501B",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5501C",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MOP5501C",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5501D",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MOP5501D",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5501E",
+    "desc": "centrifuge"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MOP5501E",
+    "desc": "motor oil pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5601",
+    "desc": "dryer cooler"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5401",
+    "desc": "strong liq agitator"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C6303",
+    "desc": "insr air comp"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C6304A",
+    "desc": "service air comp"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C6304B",
+    "desc": "service air comp"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MT6510A",
+    "desc": "no.1 cooling tower"
+  },
+  {
+    "plant": "ZA2",
+    "id": "MT6510B",
+    "desc": "no.1 cooling tower"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P6511A",
+    "desc": "no.1 ct pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P6511B",
+    "desc": "no.1 ct pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P6511C",
+    "desc": "no.1 ct pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P6511D",
+    "desc": "no.1 ct pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5101A",
+    "desc": "carb circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5101B",
+    "desc": "carb circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5402A",
+    "desc": "wash liq eva pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5402B",
+    "desc": "wash liq eva pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5404A",
+    "desc": "netralizer tank pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5404B",
+    "desc": "netralizer tank pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5302A",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5302B",
+    "desc": "vacuum pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5519A",
+    "desc": "cond return pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5519B",
+    "desc": "cond return pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5519C",
+    "desc": "cond return pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5518A",
+    "desc": "cw supply pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5518B",
+    "desc": "cw supply pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5518C",
+    "desc": "cw supply pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5508A",
+    "desc": "1st ML pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5508B",
+    "desc": "1st ML pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5504A",
+    "desc": "1st cond pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5504B",
+    "desc": "1st cond pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5201A",
+    "desc": "reac vessel agit"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5201B",
+    "desc": "reac vessel agit"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5201C",
+    "desc": "reac vessel agit"
+  },
+  {
+    "plant": "ZA2",
+    "id": "M5201D",
+    "desc": "reac vessel agit"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5602",
+    "desc": "furnace dil air fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "C5605",
+    "desc": "fun comb air fan"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5203A",
+    "desc": "scrubber liq circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5203B",
+    "desc": "scrubber liq circ pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5509A",
+    "desc": "2nd slurry pump"
+  },
+  {
+    "plant": "ZA2",
+    "id": "P5509B",
+    "desc": "slurry loop pump"
+  }
+]
