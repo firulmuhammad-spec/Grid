@@ -695,6 +695,16 @@ export default function App() {
       color: 'border-red-500/50'
     },
     {
+      id: 'structural_looseness',
+      type: 'looseness',
+      title: 'Structural Looseness',
+      pattern: '1X dan 2X Dominan di arah Vertikal',
+      twf: 'Truncated atau skewed waveform pada satu arah',
+      remedy: 'Perbaiki grouting (regrouting), perkuat struktur H-Beam, atau kencangkan angkur pondasi.',
+      icon: <Factory className="text-purple-400" />,
+      color: 'border-purple-400/50'
+    },
+    {
       id: 'gearbox',
       type: 'gearbox',
       title: 'Gearbox Problem',
@@ -881,6 +891,8 @@ export default function App() {
     rpmCpm: '',
     orientation: '', // Horizontal, Vertikal
     configuration: '', // Motor-Pompa, etc.
+    foundationType: '', // Block, Frame, Mat, Grouting
+    supportRigidity: '', // Rigid, Flexible
     
     // Step 2: Basic Vibration
     maxVibLocation: '', // Driver NDE, Driver DE...
@@ -919,7 +931,11 @@ export default function App() {
     isWhirlWhipRange: false,
     isRubbingSound: false,
     isFlowFluctuation: false,
-    skipSubSynch: false,
+    
+    // Step 3: Structural Looseness
+    isPhaseJointDiff: false, // Beda fasa antar sambungan (kaki-base-pondasi)
+    isResonanceDirectional: false,
+    skipStructural: false,
     
     // Step 4: Verification
     sensorPerpendicular: false,
@@ -1080,6 +1096,24 @@ export default function App() {
       }
       if (results.length === 0) {
         results.push({ fault: 'General Sub-synchronous Anomaly', prob: 65, rec: 'Cek indikasi gesekan atau ketidakstabilan aliran.' });
+      }
+    }
+
+    if (patterns.includes('1X') || patterns.includes('Harmonics')) {
+      if (!wizardData.skipStructural) {
+        let structuralProb = 0;
+        if (wizardData.isPhaseJointDiff) structuralProb += 50;
+        if (wizardData.isResonanceDirectional) structuralProb += 30;
+        if (wizardData.foundationType === 'Frame' || wizardData.foundationType === 'Plinth') structuralProb += 15;
+        
+        if (structuralProb > 40) {
+          confidence = Math.max(confidence, 85);
+          results.push({ 
+            fault: 'Structural Looseness', 
+            prob: structuralProb, 
+            rec: 'Suspect: Kerusakan struktur pondasi, H-Beam kendor, atau grouting pecah. Lakukan pengecekan fasa antar sambungan dan inspeksi visual pada baseplate.' 
+          });
+        }
       }
     }
 
@@ -1631,6 +1665,35 @@ export default function App() {
                       </select>
                     </div>
                   </div>
+
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-mono text-slate-500 tracking-widest">Foundation Type</label>
+                      <select 
+                        value={wizardData.foundationType} 
+                        onChange={(e) => setWizardData({...wizardData, foundationType: e.target.value})}
+                        className="w-full h-12 px-4 bg-slate-900 border border-slate-700 rounded-xl text-sm text-slate-300 focus:border-brand-accent appearance-none transition-all"
+                      >
+                        <option value="">Select Type</option>
+                        <option value="Block">Solid Block (Concrete)</option>
+                        <option value="Frame">Steel Frame / H-Beam</option>
+                        <option value="Mat">Mat / Slab Foundation</option>
+                        <option value="Plinth">Concrete Plinth / Grouting</option>
+                      </select>
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-mono text-slate-500 tracking-widest">Support Rigidity</label>
+                      <select 
+                        value={wizardData.supportRigidity} 
+                        onChange={(e) => setWizardData({...wizardData, supportRigidity: e.target.value})}
+                        className="w-full h-12 px-4 bg-slate-900 border border-slate-700 rounded-xl text-sm text-slate-300 focus:border-brand-accent appearance-none transition-all"
+                      >
+                        <option value="">Select Rigidity</option>
+                        <option value="Rigid">Rigid (Heavy/Stiff)</option>
+                        <option value="Flexible">Flexible (Steel/Dynamic)</option>
+                      </select>
+                    </div>
+                  </div>
                 </motion.div>
               )}
 
@@ -2028,6 +2091,57 @@ export default function App() {
                               <span className="text-[10px] leading-tight font-bold text-slate-300">Apakah spektrum membentuk gundukan acak (Broadband/Haystack) di frekuensi tinggi?</span>
                             </label>
                          </div>
+                      </motion.div>
+                    )}
+
+                    {/* Logic G: Structural Integrity (New) */}
+                    {(wizardData.spectrumPatterns.includes('1X') || wizardData.spectrumPatterns.includes('Harmonics')) && (
+                      <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        className="p-5 bg-slate-900/80 border border-purple-400/30 rounded-2xl space-y-4"
+                      >
+                        <div className="flex justify-between items-start">
+                          <div className="flex items-center gap-2">
+                            <Factory size={16} className="text-purple-400" />
+                            <span className="text-[10px] font-black text-purple-400 uppercase tracking-widest">Structural Integrity</span>
+                          </div>
+                          <label className="flex items-center gap-1.5 cursor-pointer">
+                            <input type="checkbox" checked={wizardData.skipStructural} onChange={e => setWizardData({...wizardData, skipStructural: e.target.checked})} className="w-3 h-3 accent-purple-400" />
+                            <span className="text-[8px] font-mono text-slate-500 uppercase">Skip</span>
+                          </label>
+                        </div>
+                        
+                        {!wizardData.skipStructural && (
+                          <div className="space-y-3">
+                            <label className="flex items-start gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800 cursor-pointer">
+                              <input 
+                                type="checkbox" 
+                                checked={wizardData.isPhaseJointDiff} 
+                                onChange={e => setWizardData({...wizardData, isPhaseJointDiff: e.target.checked})} 
+                                className="mt-0.5 w-4 h-4 accent-purple-400" 
+                              />
+                              <span className="text-[10px] leading-tight font-bold text-slate-300">Terdapat beda fasa signifikan (&gt;30°) antar joint (misal: kaki motor ke baseplate, atau baseplate ke pondasi).</span>
+                            </label>
+                            <label className="flex items-start gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800 cursor-pointer">
+                              <input 
+                                type="checkbox" 
+                                checked={wizardData.isResonanceDirectional} 
+                                onChange={e => setWizardData({...wizardData, isResonanceDirectional: e.target.checked})} 
+                                className="mt-0.5 w-4 h-4 accent-purple-400" 
+                              />
+                              <span className="text-[10px] leading-tight font-bold text-slate-300">Vibrasi dominan pada arah Vertical (untuk mesin horizontal) atau Horizontal (untuk mesin vertikal).</span>
+                            </label>
+                            
+                            {(wizardData.foundationType === 'Frame' || wizardData.foundationType === 'Plinth') && (
+                              <div className="px-3 py-2 bg-purple-500/5 border-l-2 border-purple-500/50 rounded-r-lg">
+                                <p className="text-[9px] text-purple-300/80 font-mono leading-tight">
+                                  INFO: Foundation tipe {wizardData.foundationType === 'Frame' ? 'H-Beam/Steel Frame' : 'Grouting/Plinth'} memiliki resiko kelonggaran struktural atau degradasi material yang lebih tinggi.
+                                </p>
+                              </div>
+                            )}
+                          </div>
+                        )}
                       </motion.div>
                     )}
 
